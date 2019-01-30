@@ -1,0 +1,20 @@
+{
+  "name": "apollo-server-example",
+  "description": "Server for the Apollo Client getting started demo",
+  "dependencies": {
+    "apollo-server": "2.1.0",
+    "graphql": "14.0.2",
+    "lodash": "4.17.11",
+    "node-fetch": "2.3.0"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js localhost 4000"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/graphql": "14.0.1",
+    "nodemon": "1.18.4"
+  }
+}
